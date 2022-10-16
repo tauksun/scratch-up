@@ -6,7 +6,7 @@ const getArguments = require("./get-arguments");
 const getCWD = () => {
   const args = getArguments();
   const { projectName } = args;
-  const pathToProject = path.join(__dirname, projectName);
+  const pathToProject = projectName;
   createProjectDirectory(pathToProject);
   return pathToProject;
 };
