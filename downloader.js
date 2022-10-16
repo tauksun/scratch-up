@@ -2,14 +2,16 @@ const fs = require("fs");
 const axios = require("axios");
 const config = require("./config");
 const log = require("./logger");
+const path = require("path");
 
 // Configuration //
 const url = config.url;
 const downloadFile = config.downloadFile;
+const pathToDownloadFile = path.join(__dirname, downloadFile);
 
 // Writable Stream //
 let emitter;
-const writeStream = fs.createWriteStream(downloadFile);
+const writeStream = fs.createWriteStream(pathToDownloadFile);
 writeStream.on("close", () => {
   log("Write Stream closed");
   // Initiate un-packing //
