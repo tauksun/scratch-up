@@ -1,6 +1,6 @@
 const logger = true;
 const downloadFile = "scratchup";
-const url = "";
+const url = "https://github.com/tauksun/scratch-up-base/blob/main/scratch-up-1.0.0.tar?raw=true";
 
 const getErrorMessage = () => {
   const message = `Error occured while setting up Scratch-Up, please try again.

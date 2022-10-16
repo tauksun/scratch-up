@@ -1,7 +1,7 @@
 {
   "name": "scratch-up",
   "version": "1.0.0",
-  "description": "Creates code structure with frontend, backend, proxy, database & cache layer. With maintaining focus on ease of use with local development & deployment as a container system. Has abstract functions and services for basic functionalities. Written in Typescript.",
+  "description": "Creates code structure with frontend, backend, proxy, database & cache layer. With maintaining focus on ease of development on local & deployment as a container system. Has abstract functions and services for basic functionalities. Written in Typescript.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
