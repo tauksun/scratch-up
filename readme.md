@@ -1,6 +1,6 @@
 # Scratch-Up
 
-### use :  <mark > ```npx scratch-up myApp```</mark>  
+### USE :  <mark > ```npx scratch-up myApp```</mark>  
 
 A framework to generate structure  with _frontend_, _backend_, _proxy_, _database_ & _cache layer_. With maintaining focus on ease of development on local & deployment as a container system.
 
@@ -46,6 +46,8 @@ Setup & Customize as per your needs.
   - Run: ```npm run start:dev```
 
 Code base is documented with function definitions & examples.
+
+#### View Application at : <http://localhost>
 
 ### Upcoming
 

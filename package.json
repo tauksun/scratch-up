@@ -9,6 +9,10 @@
   "bin": {
     "scratch-up": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tauksun/scratch-up-base.git"
+  },
   "keywords": [
     "framework",
     "infrastructure",
